@@ -1,9 +1,6 @@
 import React from 'react'
 import './login.css'
-// import '../otp_page/otp.css'
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-// import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function Login() {
@@ -19,10 +16,6 @@ export default function Login() {
         }
     }, [phoneNumber]);
 
-    // let navigate = useNavigate();
-    // function handleNavigate() {
-    //     navigate('/data-entry', {replace: false});
-    // };
 
     var regExp = '^[5-9][0-9]{9}$';
     var phone = phoneNumber.match(regExp);
