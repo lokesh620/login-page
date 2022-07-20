@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&family=Quicksand:wght@300&display=swap');
+
+.input-Container {
+    position: relative;
+    top: 175px;
+}
+
+.loginContainer {
+    background-image: url("../../../public/background.png");
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 450px;
+    background-size: 100%;
+    min-height: 620px;
+    /* opacity: 0.8; */
+}
+
+@media only screen and (max-height: 640px) {
+    .loginContainer {
+        /* background-image: url("../../assets/Map.svg"); */
+    }
+}
+
+.largeLogo {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    max-width: 400px;
+    z-index: 2;
+    top: 117px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.largeLogo{
+font-size: 24px;
+color: #FF9559;
+}
+
+.logoImg {
+    margin-bottom: 20px;
+    width: 165.19px;
+    height: 115px;
+}
+
+.input-Container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35%;
+}
+
+.mobileNumberLabel {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.inputImgContainer {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 1px solid #A9A9A9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+    margin: auto;
+}
+
+.mobile-input {
+    width: 90%;
+    height: 43px;
+    top: 223px;
+    /* background: inherit; */
+    margin: 0 5% 0 5%;
+    border: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #0a0a0a;
+}
+
+.inputBox:focus,
+.mobile-input:focus {
+    outline: none;
+}
+
+.button-Container {
+    position: relative;
+    align-items: center;
+    margin-top: 36.5px;
+margin-bottom: 100px;
+}
+
+.button1 {
+    position: relative;
+    width: 90%;
+    height: 45px;
+    color: #2F2F2F;
+    background: #b5907b;
+    box-shadow: 0px 2px 2px #D0CDCD;
+    border-radius: 37px;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    border: none;
+    margin: 0 5% 0 5%;
+}
+
+.button1:focus {
+    outline: none;
+}
+
+.error-message {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: red !important;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+}
+
+.otp-err-message{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: red !important;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.otp-container {
+    position: relative;
+    top: 147px;
+}
+
+.otpContainer {
+    /* background-image: url("/images/map 1.svg"); */
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    max-width: 500px;
+    background-size: cover;
+}
+
+.largeLogo {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    max-width: 400px;
+    z-index: 2;
+    top: 117px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg {
+    margin-bottom: 20px;
+    width: 165.19px;
+    height: 115px;
+}
+
+.otpSentTo {
+    position: relative;
+    top: 14%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otpSentTo p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #5A5A61;
+}
+
+.otpBox {
+    top: 15%;
+    position: relative;
+    margin: 10px;
+}
+
+.otpLabel {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 3px;
+    margin-left: 7%;
+}
+
+.otpImg {
+    margin-left: 7%;
+}
+
+.otpNumbers {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 5%;
+}
+
+.otpInput {
+    margin: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #A9A9A9;
+    /* background-color: inherit; */
+    width: 70%;
+    height: 32px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.otpInput:focus {
+    outline: none;
+}
+
+.resendOtpLabel {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 7%;
+    margin-top: 42px;
+}
+
+.buttonContainer {
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    width: 90%;
+    height: 41px;
+    color: #2F2F2F;
+    top: 20%;
+    background: #b5907b;
+    box-shadow: 0px 2px 2px #D0CDCD;
+    border-radius: 37px;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    border: none;
+    margin: 0 5% 0 5%;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.digitsBox {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
